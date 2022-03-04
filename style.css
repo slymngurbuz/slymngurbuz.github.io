@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.social-media{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.social-media div{
+    display: inline;
+}
+
+.social-media div a{
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    background-color: #2c3e50;
+    font-size: 40px;
+    color: #fff;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media .twitter a:hover{
+    background: #1D9BF0;
+}
+
+.social-media a i{
+    transition: 0.7s all;
+}
+
+.social-media a:hover > i{
+    transform: scale(1.5) rotate(360deg);
+}
+
+.social-media .instagram a:hover{
+    background: #7315C6;
+}
+
+.social-media .youtube a:hover{
+    background: #FD0000;
+}
+
+#t{
+    position: absolute;
+    top: 55%;
+    left: 43.6%;
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+#i{
+    position: absolute;
+    top: 55%;
+    left: 47.8%;
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+#y{
+    position: absolute;
+    top: 55%;
+    left: 53.3%;
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+}
