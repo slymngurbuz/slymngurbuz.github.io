@@ -52,3 +52,22 @@ body{
 .social-media .youtube a:hover{
     background: #FD0000;
 }
+
+@media (max-width:567px) {
+    .social-media .youtube .ytyer{
+        margin-left: 50px;
+    }
+}
+@media (max-width:375px) {
+    .social-media .youtube .ytyer{
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+    .social-media .instagram .instayer{
+        margin-top: 5px;
+        margin-left: 50px;
+    }
+    .social-media .twitter .twityer{
+        margin-left: 50px;
+    }
+}
