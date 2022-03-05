@@ -53,21 +53,40 @@ body{
     background: #FD0000;
 }
 
-@media (max-width:567px) {
-    .social-media .youtube .ytyer{
-        margin-left: 50px;
-    }
+.social-media .github a:hover{
+    background: #080808;
 }
-@media (max-width:375px) {
-    .social-media .youtube .ytyer{
-        margin-left: 50px;
-        margin-top: 5px;
+@media (max-width: 375px) {
+    .social-media .twitter .twityer{
+        margin-left: 40px;
     }
     .social-media .instagram .instayer{
         margin-top: 5px;
-        margin-left: 50px;
+        margin-left: 40px;
+    }
+    .social-media .youtube .ytyer{
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    .social-media .github .gityer{
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 567px){
+    .social-media .youtube .ytyer{
+       margin-top: 5px;
+       margin-left: 10px;
     }
     .social-media .twitter .twityer{
-        margin-left: 50px;
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 759px){
+    .social-media .github .gityer{
+        margin-top: 5px;
+        margin-left: 105px;
     }
 }
