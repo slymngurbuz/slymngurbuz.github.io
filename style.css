@@ -52,27 +52,3 @@ body{
 .social-media .youtube a:hover{
     background: #FD0000;
 }
-
-#t{
-    position: absolute;
-    top: 55%;
-    left: 43.6%;
-    font-size: 20px;
-    font-family: 'Fredoka', sans-serif;
-}
-
-#i{
-    position: absolute;
-    top: 55%;
-    left: 47.8%;
-    font-size: 20px;
-    font-family: 'Fredoka', sans-serif;
-}
-
-#y{
-    position: absolute;
-    top: 55%;
-    left: 53.3%;
-    font-size: 20px;
-    font-family: 'Fredoka', sans-serif;
-}
