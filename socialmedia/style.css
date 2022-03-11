@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.social-media{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.social-media div{
+    display: inline;
+}
+
+.social-media div a{
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    background-color: #2c3e50;
+    font-size: 40px;
+    color: #fff;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media .twitter a:hover{
+    background: #1D9BF0;
+}
+
+.social-media a i{
+    transition: 0.7s all;
+}
+
+.social-media a:hover > i{
+    transform: scale(1.5) rotate(360deg);
+}
+
+.social-media .instagram a:hover{
+    background: #7315C6;
+}
+
+.social-media .youtube a:hover{
+    background: #FD0000;
+}
+
+.social-media .github a:hover{
+    background: #080808;
+}
+@media (max-width: 375px) {
+    .social-media .twitter .twityer{
+        margin-left: 40px;
+    }
+    .social-media .instagram .instayer{
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    .social-media .youtube .ytyer{
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+    .social-media .github .gityer{
+        margin-top: 5px;
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 567px){
+    .social-media .youtube .ytyer{
+       margin-top: 5px;
+       margin-left: 10px;
+    }
+    .social-media .twitter .twityer{
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 759px){
+    .social-media .github .gityer{
+        margin-top: 5px;
+        margin-left: 105px;
+    }
+}
